@@ -21,7 +21,7 @@ markdown file.
 
 ///
 
-The recursive Fibonacci function is called once each time recursively, and the time complexity is O(n)
+The tail recursive Fibonacci function is called once each time recursively, and the time complexity is O(n)
 
 The non-tail recursive Fibonacci function is called twice each time recursively, and the time complexity is O(n^2). Because there is no tco, the amount of calculation increases exponentially with the increase of n, and it takes up a lot of memory.
 
